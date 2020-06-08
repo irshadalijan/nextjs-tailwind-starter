@@ -6,3 +6,10 @@
 > SEO Friendly with having dynamic content for title and meta tags
 
 > reactjs,next.js,tailwindcss
+
+# How to Use?
+
+> clone this repo to your directory.
+> Open terminal/cmd in your project direcoty and type 'npm install'
+
+> After installation is completed run command 'npm run dev' and project will be running in your browser in a moment
