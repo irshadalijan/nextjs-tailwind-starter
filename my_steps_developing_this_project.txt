@@ -1,0 +1,21 @@
+- Open terminal in the main folder
+- Run command 'npm init -y' for creating defualt package.json
+- Updated scripts object in package.json 
+     "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+    }
+- Run command 'npm install next react react-dom'
+- Created 'pages' directory
+- Created index.js,about.js and contact.js inside pages directory with their respective inital codes of functional component generation
+- Run command 'npm run dev' for checking application running fine.
+
+Installing Tailwind
+- Run comman 'npm install --save-dev tailwindcss postcss-preset-env'
+- After installing tailwind then created a postcss.config.js file by using command 'touch postcss.config.js'
+- Adding the content to postcss.config.js
+    module.exports = {
+  plugins: ["tailwindcss", "postcss-preset-env"],
+};
+
