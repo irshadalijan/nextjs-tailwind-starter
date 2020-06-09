@@ -16,5 +16,5 @@
 
 ## Demo
 
-Use this link to test Sherlock directly in your browser:
+Use this link to test Demo directly in your browser:
 http://irshadalijan.github.io/nextjs-tailwind-starter
