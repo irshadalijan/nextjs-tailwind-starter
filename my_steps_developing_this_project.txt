@@ -19,3 +19,16 @@ Installing Tailwind
   plugins: ["tailwindcss", "postcss-preset-env"],
 };
 
+Deploying to github pages Steps
+- Run command npm install gh-pages --save-dev
+- add "homepage" object to package.json => "homepage" : "http://mygithubusername.github.io/repo_name"
+- added "predeploy": "npm run build" to package.json scripts object
+- added     "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true" to package.json scripts object
+- added next.config.js file with content:
+
+const debug = process.env.NODE_ENV !== "production";
+
+module.exports = {
+  assetPrefix: !debug ? "/nextjs-tailwind-starter" : "",
+};
+npm run deploy - To deploy 

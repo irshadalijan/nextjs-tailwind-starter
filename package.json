@@ -1,12 +1,15 @@
 {
   "name": "nextjs",
   "version": "1.0.0",
+  "homepage": "http://irshadalijan.github.io/nextjs-tailwind-starter",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
   },
   "keywords": [],
   "author": "",

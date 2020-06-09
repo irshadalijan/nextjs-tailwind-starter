@@ -10,6 +10,11 @@
 # How to Use?
 
 > clone this repo to your directory.
-> Open terminal/cmd in your project direcoty and type 'npm install'
+> Open terminal/cmd in your project directory and type 'npm install'
 
 > After installation is completed run command 'npm run dev' and project will be running in your browser in a moment
+
+## Demo
+
+Use this link to test Sherlock directly in your browser:
+http://irshadalijan.github.io/nextjs-tailwind-starter
