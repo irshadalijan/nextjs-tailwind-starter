@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 
-const index = () => {
+const About = () => {
   const metaInfo = {
     title: "This is About Us page",
     metaKeywords: "About us keywords",
@@ -145,4 +145,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default About;
